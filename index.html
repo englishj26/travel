@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>creative travel page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=DM MONO' rel='stylesheet'>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'light';font-size: 22px;
+}
+
+/* Style the header */
+.header {
+  background-color: #E07A5F;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+ 
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Best 2024 <img src="images/Jacks Travels-logos_black.png" width="200px"> Destinations</h2>
+</div>
+
+<div class="nav">
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="vac1.html">Cape Cod</a></li>
+    <li><a href="vac2.html">Aruba</a></li>
+    <li><a href="vac3 3.html">France</a></li>
+  </ul>
+
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#F4F1DE;"><h2>Cape Cod</h2> 
+   <img src="images/download.jpg"> <p>Cape Cod is an arm-shaped peninsula extending into the Atlantic Ocean from the southeastern corner of Massachusetts, in the northeastern United States. Its historic, maritime character and ample beaches attract heavy tourism during the summer months. The name Cape Cod, coined in 1602 by Bartholomew Gosnold, is the ninth oldest English place-name in the U.S.</p></div>
+  <div class="column" style="background-color:#F4F1DE;"><h2>Aruba</h2><img src="images/aruba.jpg"> <p>Aruba measures 32 kilometres (20 mi) in length from its northwestern to its southeastern end and is 10 kilometres (6 mi) across at its widest point. Alongside Bonaire and Curaçao, Aruba forms a group referred to as the ABC islands. The Dutch Caribbean encompasses the ABC islands, along with the other three Dutch substantial islands in the Caribbean, the SSS islands. Aruba contributes to about one-third of the population of the Dutch Caribbean.</p></div>
+  <div class="column" style="background-color:#F4F1DE;"><h2>France</h2><img src="images/france.jpg"><p>France, officially the French Republic  is a country located primarily in Western Europe. It also includes overseas regions and territories in the Americas and the Atlantic, Pacific and Indian oceans, giving it one of the largest discontiguous exclusive economic zones in the world. Metropolitan France shares borders with Belgium and Luxembourg to the north, Germany to the north east, Switzerland to the east, Italy and Monaco to the south east, Andorra and Spain to the south, and a maritime border with the United Kingdom to the north west. Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea.</p></div>
+</div>
+
+<div class="footer">
+  <p>Jack webdesign p5</p>
+</div>
+
+</body>
+</html>
